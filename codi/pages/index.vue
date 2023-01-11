@@ -1,5 +1,5 @@
 <template>
-  <div class="my-bg-class">
+  <div>
     <v-container class="container">
       <NavBarChaine />
 
@@ -9,12 +9,13 @@
         </v-col>
       </v-row>
     </v-container>
-    <Footer />
+    <Footer class="bg" />
   </div>
 </template>
 
 <script>
 import "bulma/css/bulma.css";
+import bg from "~/assets/main.css";
 export default {
   name: "IndexPage",
 };
